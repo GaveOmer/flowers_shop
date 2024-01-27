@@ -164,8 +164,8 @@ CSRF_COOKIE_SECURE = False
 # DRF SPECTACULAR SETTINGS
 ###############################
 SPECTACULAR_SETTINGS = {
-    'TITLE': 'Call Helper',
-        'DESCRIPTION': 'Call Helper',
+    'TITLE': 'Flowers Shop',
+        'DESCRIPTION': 'Flowers Shop',
     'VERSION': '1.0.0',
     'OPENAPI_VERSION': '3.0.3',
 

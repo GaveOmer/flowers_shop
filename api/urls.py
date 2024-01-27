@@ -4,5 +4,4 @@ app_name='api'
 
 urlpatterns=[]
 
-...
 urlpatterns += doc_urls
