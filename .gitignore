@@ -152,6 +152,7 @@ dmypy.json
 # Cython debug symbols
 cython_debug/
 
+<<<<<<< HEAD
 
 
 
@@ -168,3 +169,11 @@ media/
 */media/
 
 **/migrations/__init__.py
+=======
+# PyCharm
+#  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
+#  be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
+#  and can be added to the global gitignore or merged into this file.  For a more nuclear
+#  option (not recommended) you can uncomment the following to ignore the entire idea folder.
+#.idea/
+>>>>>>> 8c8cf47c4b3ecddb998740f54db95eef42175088
