@@ -43,6 +43,9 @@ INSTALLED_APPS += [
 INSTALLED_APPS += [
     'api',
     'common',
+    'products',
+    'user_profile',
+    
 ]
 
 # after apps
