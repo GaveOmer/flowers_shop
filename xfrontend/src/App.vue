@@ -1,15 +1,13 @@
 <script setup>
 import Index from './components/Index.vue'
+import HeaderApp from './components/HeaderApp.vue'
 </script>
 
 <template>
   <div>
-    <Index/>
+    <HeaderApp/>
     <div class="container">
-      <p>sdsdsdsds</p>
-      <p>sdsdsdsds</p>
-      <p>sdsdsdsds</p>
-      <p>sdsdsdsds</p>
+      <Index/>
     </div>
   </div>
   

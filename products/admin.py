@@ -11,3 +11,5 @@ class ProductCategoryAdmin(admin.ModelAdmin):
 class ProductAdmin(admin.ModelAdmin):
   list_display = ('id','name','slug','category','available','detail','price','stock')
   list_editable=('name','slug','category','available','detail','price','stock')
+  
+
