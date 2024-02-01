@@ -6,7 +6,7 @@ import HeaderApp from './components/HeaderApp.vue'
 <template>
   <div>
     <HeaderApp/>
-    <div class="container">
+    <div class="">
       <Index/>
     </div>
   </div>

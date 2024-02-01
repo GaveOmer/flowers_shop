@@ -1,7 +1,17 @@
 import { createApp } from 'vue'
 import App from './App.vue'
-import 'bootstrap/dist/css/bootstrap.min.css'
-import 'bootstrap/dist/js/bootstrap.bundle.min.js'
+import axios from 'axios'
+import './style.css'
+axios.defaults.baseURL = 'http://127.0.0.1:8000'
 
-createApp(App).mount('#app')
- 
+const app = createApp(App)
+
+app.use(router, axios)
+
+
+app.mount('#app')
+
+
+
+
+

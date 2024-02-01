@@ -6,7 +6,7 @@
     <div v-if="loading">Загрузка...</div>
     <div v-else-if="error">{{ error }}</div>
     <div v-else>
-      <ul>
+      <ul class="">
         <li v-for="item in data" :key="item.slug">
           {{ item.name }}
           <img :src="imageUrl" alt="Описание изображения">
@@ -27,7 +27,6 @@ export default {
       data: null,
       loading: true,
       error: null,
-      imageUrl: 'http://127.0.0.1:8000/media/product_images/piona.jpg'
     };
   },
   mounted() {
