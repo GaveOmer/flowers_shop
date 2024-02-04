@@ -1,7 +1,7 @@
 <script>
 import Index from './components/Index.vue'
 import HeaderApp from './components/HeaderApp.vue'
-import ChangeColorButton from './components/ChangeColorButton'
+import ChangeColorButton from './components/ChangeColorButton.vue'
 export default {
 	components: {
 		ChangeColorButton,
